@@ -15,6 +15,6 @@ let types = [];
 for (let typeData of pokeData.types) {
     types.push(typeData.type.name);
 }
-console.log(`Weight: ${pokeData.weight} ,Height: ${pokeData.height}, Name: ${pokeData.name}, Types: ${types.join(' and ')}`);
+console.log(`Name: ${pokeData.name},Weight: ${pokeData.weight} ,Height: ${pokeData.height}, Types: ${types.join(' and ')}`);
 }
 //console.log(pokemonName, pokemonWeight, pokemonHeight);

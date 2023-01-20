@@ -1,4 +1,5 @@
 //while loop - loop through urls (by number) until an error occurs. Error noticed via cath method or catch block. 
+// while true
 
 let url = `https://pokeapi.co/api/v2/pokemon/`;
 let i = 1000;
